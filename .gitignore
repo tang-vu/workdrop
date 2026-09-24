@@ -1,0 +1,14 @@
+node_modules/
+web/dist/
+*.tsbuildinfo
+data/
+data-bench/
+target/
+assets/sample/frames/
+assets/sample/preview-*.png
+__pycache__/
+.venv/
+.env
+*.pyc
+.test-data/
+data-test.sqlite3*

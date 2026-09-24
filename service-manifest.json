@@ -1,0 +1,33 @@
+{
+  "name": "WORKDROP Product Teaser 01",
+  "version": "1.0.0",
+  "batchSize": 12,
+  "creditBaseUnits": "1000000",
+  "service": "One 15-second product teaser per whole credit",
+  "acceptedInput": {
+    "imageFormats": ["PNG", "JPEG", "WEBP"],
+    "maxBytes": 8388608,
+    "minWidth": 640,
+    "minHeight": 360,
+    "maxPixels": 16000000,
+    "productNameMax": 44,
+    "valuePropositionMax": 100,
+    "ctaMax": 32
+  },
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 450,
+    "durationSeconds": 15,
+    "videoCodec": "H.264",
+    "pixelFormat": "yuv420p",
+    "audio": "none"
+  },
+  "template": "studio-cut-v1",
+  "deliveryDeadlineHours": 48,
+  "maxAttempts": 2,
+  "artifactRetentionDays": 30,
+  "creditExpiry": null,
+  "disclaimer": "A credit purchases a specified creative service. It is not equity, revenue share, or a right to profit. A returned credit is not a cash refund."
+}
